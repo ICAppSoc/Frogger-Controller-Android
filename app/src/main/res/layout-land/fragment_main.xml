@@ -12,7 +12,7 @@
     <Button
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:text="LEFT"
         android:id="@+id/buttonLeft"
         android:layout_alignParentLeft="true"
@@ -21,8 +21,16 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="3"
         android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score Unknown"
+            android:padding="8dp"
+            android:gravity="center"
+            android:id="@+id/scoreText" />
 
         <Button
             android:layout_width="match_parent"
@@ -44,7 +52,7 @@
     <Button
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:text="RIGHT"
         android:id="@+id/buttonRight"
         android:layout_centerVertical="true"
